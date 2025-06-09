@@ -1,7 +1,5 @@
 
 
-
-
 #include <iostream>
 #include "layman.h"
 #include <ostream>

@@ -22,7 +22,7 @@ add_executable(sandbox
     sandbox/sandbox.cpp
 )
 target_link_libraries(sandbox PRIVATE Layman)
-target_include_directories(sandbox PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(sandbox PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 # Install rules (optional)
 install(TARGETS Layman DESTINATION lib)
